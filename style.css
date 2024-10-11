@@ -1,0 +1,208 @@
+.navbar {
+  width: 80%;
+  margin: auto;
+  background: rgb(0, 0, 0) ;
+  background: linear-gradient(90deg, rgb(90, 19, 255) 0%, rgb(79, 76, 245) 32%, rgb(246, 246, 248) 83%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+}
+.navbar-container img{
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: red;    
+}
+
+a:visited{ 
+color: black;
+}
+
+#container{
+width: 80%;
+display: flex;
+margin: auto;
+justify-content: space-between ;
+align-items: center;
+}
+
+
+
+h3{
+  font-size: 30px;
+  margin: 0;
+}
+
+h1{
+  font-size: 54px;
+  margin:0 ;
+}
+
+#firee{
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
+#lock{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between ;
+  align-items: center;  
+}
+
+
+h3{
+  font-size: 28px;
+  margin: 0;
+}
+
+h3{
+  font-size: 28px;
+  margin:0 ; 
+}
+
+
+#hobby {
+  width: 80%;
+  margin: auto;
+}
+
+#hobby-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.boxx {
+  width: 25%;
+  border: 1PX solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+h5 {
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  color:black;
+  font-size: ;
+}
+
+.nav-links a :visited {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  #hobby-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 0 auto;
+  }
+
+  .boxx {
+    width: 65%;
+    border: 1PX solid black;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  #container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between ;
+    align-items: center;
+    }
+
+    #lock{
+      width: 100%;
+      display: flex;
+      margin: auto;
+      justify-content: space-between ;
+      align-items: center;  
+    }
+
+    .navbar {
+      width: 80%;
+      margin: auto;
+      background: rgb(0, 0, 0) ;
+      background: linear-gradient(90deg, rgb(90, 19, 255) 0%, rgb(79, 76, 245) 32%, rgb(246, 246, 248) 83%);
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      align-items: center;
+      
+    }
+
+    .nav-toggle{
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+
+    }
+
+    h3{
+      font-size: 15px;
+      margin: 0;
+    }
+
+    h1{
+      font-size: 27px;
+      margin:0 ;
+    }
+
+    h3{
+      font-size: 28px;
+      margin: 0;
+    }
+
+    #img {
+      width: 200px;
+      height: 400px;
+    }
+
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-toggle:focus + .nav-links,
+    .nav-links:hover {
+      display: flex;
+    }
+}
